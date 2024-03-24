@@ -4,8 +4,9 @@ import { Button } from "./ui/button";
 import { MoonIcon, SunIcon } from "@radix-ui/react-icons";
 import { useTheme } from "next-themes";
 
-function ThemeToggler() {
+const ThemeToggler = () => {
     const { theme, setTheme } = useTheme();
+    console.log(theme);
     return (
         <div>
             <Button
@@ -16,6 +17,6 @@ function ThemeToggler() {
             </Button>
         </div>
     );
-}
+};
 
 export default ThemeToggler;
