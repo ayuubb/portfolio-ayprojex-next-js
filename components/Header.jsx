@@ -16,7 +16,7 @@ const Header = () => {
                         <Nav
                             containerStyles="hidden xl:flex gap-x-8 items-center"
                             linkStyles="relative hover:text-primary transition-all"
-                            underlineStyles="absolute left-0 top-full h-[2px] bg-primary w-full"
+                            underlineStyles="absolute left-0 bottom-[-1px] right-0 top-full h-[1px] bg-primary w-full"
                         />
                         <ThemeToggler />
                     </div>

@@ -26,6 +26,8 @@ const Nav = ({ containerStyles, linkStyles, underlineStyles }) => {
                                 animate={{ y: 0 }}
                                 transition={{ type: "tween" }}
                                 className={`${underlineStyles}`}
+                                layout
+                                // layoutId="underline"
                             />
                         )}
                         {link.name}
